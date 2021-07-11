@@ -1,0 +1,115 @@
+h1{
+    color: red;
+}
+
+
+form{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 35%;
+    margin: auto;
+    }
+    .start{
+        box-sizing: border-box;
+    }
+    .img{ 
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .first-items h4{ 
+        text-align: center;
+    }
+    .first-items p{ 
+        text-align: center;
+   }
+    img{
+        width: 30%;
+        height: 40px;
+    }
+    a
+    {
+    text-decoration: none;
+    }
+    .second-items{
+        margin: 10px 20px;
+    }
+    .third-items{
+        display:flex;
+        justify-content: space-between;
+        margin: 60px 20px;
+
+    }
+    .next{
+        background-color: blue;
+        color: white;
+        height: 27px;
+        width: 50px;
+        border-radius: 5px;
+    }
+    #email{
+        height: 40px;
+        padding: 5px 10px ;
+        width: 90%;
+    }
+    #email:focus{
+        border-radius: 5px;
+        outline: none;
+        border: 2px solid blue;
+    }
+    .second-items p{
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .create_div{
+        padding: 10px;
+    }
+    .create_div:hover{
+        width: 100px;  
+        transition-duration: 0.5s;
+        background-color: #E4EFFC;
+    }
+    .next_div{
+        margin-top: 10px;
+    }
+    .final {
+        width: 35%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .final ul{
+        display: none;
+        list-style: none;
+    }
+    .final p:hover{
+        cursor: pointer;
+    }
+    .final p:hover + .langs{
+        display: block;
+    }
+    .final .help{
+        margin-top: 13px;
+    }
+    .next:hover{
+        cursor: pointer;
+    }
+    .input-label{
+        position: absolute;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+        left: 8px;
+        top: 15px;
+        padding: 0 8px;
+        transition: 0.5s;
+    }
+    .input-box{
+        position: relative;
+    }
+    .input:focus + .input-label{
+        top: -8px;
+        background-color: white;
+    }
+
+   
